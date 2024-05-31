@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/download.png" type="image/x-icon">
+    <title>comandos git</title>
+</head>
+<body>
+    <h1>Comandos git basicos</h1>
+    <h2>Aqui estão alguns comandos básicos do Git que são essenciais para o controle de versão:</h2>
+    <h4>Configuração Inicial</h4>
+      <p>Configura seu nome de usuário: <span>
+        git config --global user.name "Seu Nome"</span></p>
+        
+        <p>Configura seu e-mail: <span>
+            git config --global user.email "seu.email@example.com"</span></p>
+        <h4>Criação de Repositório</h4>
+        <p>Inicializa um novo repositório Git: <span>
+            git init</span></p>
+            
+                <p>Clona um repositório existente: <span>
+            git clone <url-do-repositorio>
+            </span>
+                </p>
+            <h4>Estado do Repositório</h4>
+                <p> Verifica o status dos arquivos no diretório:
+                   <span> git status</span>
+                </p>
+                    
+                <p> Mostra as diferenças entre o diretório de trabalho e a área de stage:
+                   <span> git diff</span>
+                </p>
+                    
+                <p> Mostra o histórico de commits:
+                  <span> git log</span> 
+                </p>
+                <h4>Manipulação de Arquivos</h4>
+                <p>Adiciona arquivos à área de stage:
+                   <span> git add "arquivo" </span>
+                </p>   
+                 <p>Adiciona todos os arquivos à área de stage:
+                  <span>  git add .</span>
+                </p>    
+                  <p>Remove arquivos do repositório e do sistema de arquivos:
+                  <span>git rm "arquivo"</span> 
+                </p>     
+                  <p>  Remove arquivos da área de stage, mas mantém no sistema de arquivos:
+                   <span> git rm --cached "arquivo"</span>
+                    </p>
+                    <h4>Commits</h4>
+                    <p> Faz commit dos arquivos na área de stage:
+                       <span> git commit -m "Mensagem do commit"</span>
+                    </p>   
+                     <p> Faz commit pulando a área de stage:
+                       <span> git commit -a -m "Mensagem do commit"</span>
+                        </p>
+                    <h4>Branches</h4>
+                        <p> Lista todas as branches:
+                           <span> git branch</span>
+                        </p>
+                            <p> Cria uma nova branch:
+                           <span> git branch "nome-da-branch"</span>
+                            </p>
+                             <p> Muda para outra branch:
+                             <span> git checkout "nome-da-branch"</span>
+                            </p>
+                            <p> Cria e muda para uma nova branch:
+                             <span> git checkout -b "nome-da-branch"</span>
+                            </p>
+                             <p>Mescla uma branch com a branch atual:
+                            <span>git merge "nome-da-branch"</span>
+                            </p>
+
+</body>
+</html>
