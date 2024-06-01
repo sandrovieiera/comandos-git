@@ -1,14 +1,66 @@
 body {
-    background-color: brown;
+    background: linear-gradient(135deg, #667eea, #764ba2); /* Gradiente de cor */
+    font-family: 'Arial', sans-serif;
+   
 }
 span {
-    color: blue;
+    color: #feb47b;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+            font-size: 3em;
+            color: #333;
+            text-align: center;
+            margin-top: 50px;
+            transition: transform 0.3s ease-in-out;
+   
+}
+h1:hover {
+    transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+    color: #007BFF; /* Muda a cor ao passar o mouse */
 }
 
 h2 {
+    font-family: 'Roboto', sans-serif;
+            font-size: 3em;
+            color: #333;
+            text-align: center;
+            /*margin-top: 50px;*/
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     color: aliceblue;
 }
 
 h4 {
+    text-align: center;
+    font-size: 30px;
     color: chartreuse;
 }
+h4:hover {
+    transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+    color: rgb(53, 94, 12);
+}
+
+p {
+    text-align: center;
+
+}
+
+h6 {
+        /*color: aliceblue;
+        font-size: 25px;*/
+        font-family: 'Roboto', sans-serif;
+                font-size: 3em;
+                text-align: center;
+                margin-top: 50px;
+                background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Gradiente de cor */
+                -webkit-background-clip: text;
+                color: transparent;
+    }
+footer {
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+

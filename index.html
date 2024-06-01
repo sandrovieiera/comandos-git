@@ -72,6 +72,10 @@
                              <p>Mescla uma branch com a branch atual:
                             <span>git merge "nome-da-branch"</span>
                             </p>
+                            <h4>Revertendo Alterações</h4>
+                            <p>Reverte modificações no diretório de trabalho
+                              <span>git checkout -- "arquivo"</span>
+                            </p>
 
                             <h4>Sincronização</h4>
                                 <p> Baixa alterações de um repositório remoto:
@@ -83,5 +87,38 @@
                                     <p>Envia commits para uma branch específica de um repositório remoto:
                                       <span> git push origin "nome-da-branch"</span> </p>
 
+                            <p> Reseta a área de stage para o último commit
+                              <span>git reset "arquivo"</span>
+                            </p>
+
+                          <p> Reseta a área de stage e o diretório de trabalho para o último commit
+                            <span>git reset --hard </span>
+                          </p>
+                          <p> Cria um novo commit que reverte um commit específico
+                            <span>git revert "commit"</span>
+                          </p>
+                          <h4>Logs e Histórico</h4>
+                          <p>Mostra o log de commits de forma compacta
+                           <span> git log --oneline</span>
+                          </p>
+                          <p> Mostra o log de commits com gráfico
+                           <span> git log --graph</span>
+                          </p>
+                          <p>Mostra o log de commits de uma branch específica
+                            <span>git log "nome-da-branch "nome-da-branch"</span>
+                          </p>
+                          <h4>Tags</h4>
+                          <p>Cria uma nova tag
+                           <span> git tag "nome-da-tag"</span>
+                            </p>
+                          <p>Lista todas as tags
+                           <span> git tag</span>
+                          </p>
+                          <p>Envia tags para o repositório remoto
+                           <span>git push origin --tags</span>
+                          </p>
+                         
+                          <h6>Esses comandos cobrem as operações mais comuns que você realizará usando Git. Com o tempo, você pode aprender comandos mais avançados e opções adicionais para personalizar o uso do Git de acordo com suas necessidades.</h6>
+                          <footer>&copy Sandro Vieira</footer>
 </body>
 </html>
